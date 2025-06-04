@@ -1,31 +1,28 @@
-Angular Date Time Picker (DayJs Adapter)
-========================
+# Angular Date Time Picker (DayJs Adapter)
 
 [![npm](https://img.shields.io/npm/v/@danielmoncada/angular-datetime-picker-dayjs-adapter.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/@danielmoncada/angular-datetime-picker-dayjs-adapter)
 [![npm](https://img.shields.io/npm/dm/@danielmoncada/angular-datetime-picker-dayjs-adapter.svg)](https://www.npmjs.com/package/@danielmoncada/angular-datetime-picker-dayjs-adapter)
 
 **Angular date time picker - DayJs Adpater**
 
-**The current version of this package supports Angular 17**
+**The current version of this package supports Angular 17/18/19**
 
-If you need support for other Angular version, see *Breaking Changes* below.
+If you need support for other Angular version, see _Breaking Changes_ below.
 
-Breaking Changes
--------
-- Version 3.x.x >= no longer supports ng 16 - 13. If you need ng 16-13 support, stick with version 2.x.x.
+## Breaking Changes
 
-Description
--------
+-   Version 3.x.x >= no longer supports ng 16 - 13. If you need ng 16-13 support, stick with version 2.x.x.
+
+## Description
+
 This is a DayJs adapter to be used with the following date time picker control:
 
 https://github.com/danielmoncada/date-time-picker
 
-How to Use
--------
+## How to Use
 
- 1. Install with [npm](https://www.npmjs.com):`npm install @danielmoncada/angular-datetime-picker-dayjs-adapter --save`
- 2. 
-    ```typescript
+1.  Install with [npm](https://www.npmjs.com):`npm install @danielmoncada/angular-datetime-picker-dayjs-adapter --save`
+2.  ```typescript
     import { NgModule } from '@angular/core';
     import { OwlDateTimeModule, OWL_DATE_TIME_FORMATS} from '@danielmoncada/angular-datetime-picker;
     import { OwlDayJsDateTimeModule } from '@danielmoncada/angular-datetime-picker-dayjs-adapter';
@@ -52,21 +49,21 @@ How to Use
     }
     ```
 
-Dependencies
--------
-- dayjs
-- @danielmoncada/angular-datetime-picker
-- tslib
+## Dependencies
 
-Demo
--------
-- Online doc is [here](https://daniel-projects.firebaseapp.com/owlng/date-time-picker) and [here](https://danielykpan.github.io/date-time-picker/)
-- Online demos (StackBlitz) are [here](https://stackblitz.com/edit/angular-vvp849) and [here](https://stackblitz.com/edit/angular-i7ykf5)
+-   dayjs
+-   @danielmoncada/angular-datetime-picker
+-   tslib
 
-License
--------
-* License: MIT
+## Demo
 
-Author
--------
+-   Online doc is [here](https://daniel-projects.firebaseapp.com/owlng/date-time-picker) and [here](https://danielykpan.github.io/date-time-picker/)
+-   Online demos (StackBlitz) are [here](https://stackblitz.com/edit/angular-vvp849) and [here](https://stackblitz.com/edit/angular-i7ykf5)
+
+## License
+
+-   License: MIT
+
+## Author
+
 **Maintained and updated by Daniel Moncada, original implementatiom by Daniel Pan**
