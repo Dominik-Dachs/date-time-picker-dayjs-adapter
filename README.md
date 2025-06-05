@@ -5,7 +5,7 @@
 
 **Angular date time picker - DayJs Adpater**
 
-**The current version of this package supports Angular 17/18/19**
+**The current version of this package supports Angular 19**
 
 If you need support for other Angular version, see _Breaking Changes_ below.
 
